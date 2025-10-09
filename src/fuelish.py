@@ -1,9 +1,10 @@
 ##################################
-
-import requests
-import csv
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+import csv, requests
 from bs4 import BeautifulSoup
 import concurrent.futures
+import time
 ###################################
 headers = {
     'Host': 'www.ndtv.com',
@@ -42,159 +43,85 @@ def asyncget(urls):
     return result
 
 def main():
-    
+    chrome_options = Options()
+    chrome_options.add_argument("--headless=new")
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
+    chrome_options.add_argument("--disable-blink-features=AutomationControlled")
+    chrome_options.add_argument("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                                "Chrome/140.0.0.0 Safari/537.36")
+
+    driver = webdriver.Chrome(options=chrome_options)
+
     URL1 = "https://www.ndtv.com/fuel-prices/petrol-price-in-all-state"
-    page1 = requests.get(URL1, headers = headers)
     URL2 = "https://www.ndtv.com/fuel-prices/diesel-price-in-all-state"
-    page2 = requests.get(URL2, headers = headers)
 
-    #print(page.text)
-    soup1 = BeautifulSoup(page1.content, "html.parser")
-    results1=soup1.find(id="myID")
+    driver.get(URL1)
+    time.sleep(2)
+    soup1 = BeautifulSoup(driver.page_source, "html.parser")
+    results1 = soup1.find("table")
+    if not results1:
+        print("❌ Could not find Petrol table.")
+        print(soup1.prettify()[:1000])
+        return
 
-    soup2 = BeautifulSoup(page2.content, "html.parser")
-    results2=soup2.find(id="myID")
+    driver.get(URL2)
+    time.sleep(2)
+    soup2 = BeautifulSoup(driver.page_source, "html.parser")
+    results2 = soup2.find("table")
+    if not results2:
+        print("❌ Could not find Diesel table.")
+        print(soup2.prettify()[:1000])
+        return
 
-    #create lists for each parameters
     state = []
-    city =[]
     price_p = []
     change_p = []
     price_d = []
     change_d = []
-    cprice_p = []
-    cchange_p = []
-    cprice_d = []
-    cchange_d = []
 
-    x = 1
+    # Parse petrol
+    for row in results1.find_all("tr")[1:]:
+        tds = row.find_all("td")
+        if len(tds) < 3:
+            continue
+        state.append(tds[0].text.strip())
+        price_p.append(tds[1].text.strip())
+        ch = tds[2]
+        if ch.find(class_="chngBx up"):
+            change_p.append("+ " + ch.text.strip())
+        elif ch.find(class_="chngBx down"):
+            change_p.append("- " + ch.text.strip())
+        else:
+            change_p.append("  " + ch.text.strip())
 
-#####################################
+    # Parse diesel
+    for row in results2.find_all("tr")[1:]:
+        tds = row.find_all("td")
+        if len(tds) < 3:
+            continue
+        price_d.append(tds[1].text.strip())
+        ch = tds[2]
+        if ch.find(class_="chngBx up"):
+            change_d.append("+ " + ch.text.strip())
+        elif ch.find(class_="chngBx down"):
+            change_d.append("- " + ch.text.strip())
+        else:
+            change_d.append("  " + ch.text.strip())
 
-#extracting all elements under td tag
-    for SData_P in results1.find_all("td"):
-        match (x%3):
-            case 1:
-                state.append(SData_P.text)
-            case 2:
-                price_p.append(SData_P.text)
-            case 0:
-                if(SData_P.find(class_="chngBx up")):
-                    change_p.append("- "+SData_P.text)
-                elif(SData_P.find(class_="chngBx down")):
-                    change_p.append("+ "+SData_P.text)
-                else:
-                    change_p.append("  "+SData_P.text)
-        x+=1
-    x=1
-    for SData_D in results2.find_all("td"):
-        match (x%3):
-            case 2:
-                price_d.append(SData_D.text)
-            case 0:
-                if(SData_D.find(class_="chngBx up")):
-                    change_d.append("- "+SData_D.text)
-                elif(SData_D.find(class_="chngBx down")):
-                    change_d.append("+ "+SData_D.text)
-                else:
-                    change_d.append("  "+SData_D.text)
-        x+=1
-    x=1
-    ses = requests.Session()
-    lstp={}
-    lstd={}
-    for s in state:
-        lstp[s]=("https://www.ndtv.com/fuel-prices/petrol-price-in-"+s.replace(" ","-")+"-state")
-        lstd[s]=("https://www.ndtv.com/fuel-prices/diesel-price-in-"+s.replace(" ","-")+"-state")
-    lstp=asyncget(lstp)
-    lstd=asyncget(lstd)
-    keyp=list(lstp.keys())
-    keyp.sort()
-    keyd=list(lstd.keys())
-    keyd.sort()
-    lstp = {i: lstp[i] for i in keyp}
-    lstd = {i: lstd[i] for i in keyd}
-    try:
-        for i,j,s in zip(list(lstp.values()),list(lstd.values()),state):
-            print("csv-",s)
-            city=[]
-            cprice_p = []
-            cchange_p = []
-            cprice_d = []
-            cchange_d = []
-            soup3 = BeautifulSoup(i, "html.parser")
-            results3=soup3.find(id="myID")
-            soup4 = BeautifulSoup(j, "html.parser")
-            results4=soup4.find(id="myID") 
-            for CData_P in results3.find_all("td"):
-                match (x%3):
-                    case 1:
-                        city.append(CData_P.text)
-                    case 2:
-                        cprice_p.append(CData_P.text)
-                    case 0:
-                        if(CData_P.find(class_="chngBx up")):
-                            cchange_p.append("- "+CData_P.text)
-                        elif(CData_P.find(class_="chngBx down")):
-                            cchange_p.append("+ "+CData_P.text)
-                        else:
-                            cchange_p.append("  "+CData_P.text)
-                x+=1
-            x=1
-            for CData_D in results4.find_all("td"):
-                match (x%3):
-                    case 2:
-                        cprice_d.append(CData_D.text)
-                    case 0:
-                        if(CData_D.find(class_="chngBx up")):
-                            cchange_d.append("- "+CData_D.text)
-                        elif(CData_D.find(class_="chngBx down")):
-                            cchange_d.append("+ "+CData_D.text)
-                        else:
-                            cchange_d.append("  "+CData_D.text)
-                x+=1
-            out2=[]
-            out2.append(["City","Price(P)","Change(P)","Price(D)","Change(D)"])
-            for (i,j,k,l,m) in zip(city,cprice_p,cchange_p,cprice_d,cchange_d):
-                list2=[i,j,k,l,m]
-                out2.append(list2)
-            f=open("./assets/"+s+".csv","w",encoding="utf-8")
-            cswrite=csv.writer(f)
-            cswrite.writerows(out2)
-            f.close()
-    except:
-        print("Re-run")
-        main()
-        
-#####################################
+    driver.quit()
 
-    out1=[]
-    out1.append(["State","Price(P)","Change(P)","Price(D)","Change(D)"])
-    for (i,j,k,l,m) in zip(state,price_p,change_p,price_d,change_d):
-        list1=[i,j,k,l,m]
-        out1.append(list1)
-    #tablemaker(out)
+    out1 = []
+    out1.append(["State", "Price(P)", "Change(P)", "Price(D)", "Change(D)"])
+    for (i, j, k, l, m) in zip(state, price_p, change_p, price_d, change_d):
+        out1.append([i, j, k, l, m])
 
-    # out2=[]
-    # out2.append(["City","Price(P)","Change(P)","Price(D)","Change(D)"])
-    # for (i,j,k,l,m) in zip(city,cprice_p,cchange_p,cprice_d,cchange_d):
-    #     list2=[i,j,k,l,m]
-    #     out2.append(list2)
-    #tablemaker(out)
+    with open("State.csv", "w", encoding="utf-8", newline="") as f:
+        cswrite = csv.writer(f)
+        cswrite.writerows(out1)
 
-######################################
-
-    f=open("State.csv","w",encoding="utf-8")
-
-    cswrite=csv.writer(f)
-    cswrite.writerows(out1)
-    f.close()
-
-    # f=open("City.csv","w",encoding="utf-8")
-
-    # cswrite=csv.writer(f)
-    # cswrite.writerows(out2)
-    # f.close()
+    print("✅ State-level data saved successfully.")
 
 #######################################
 if __name__ == '__main__':
