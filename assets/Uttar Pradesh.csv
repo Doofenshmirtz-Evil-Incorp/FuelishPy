@@ -1,76 +1,76 @@
 City,Price(P),Change(P),Price(D),Change(D)
-Agra,94.42 ₹/L,- 0.22,87.72 ₹/L,+ 0.14
-Aligarh,94.82 ₹/L,  0.00,88.05 ₹/L,+ 0.12
-Allahabad,95.80 ₹/L,+ 0.57,88.79 ₹/L,+ 0.28
-Ambedkarnagar,95.60 ₹/L,+ 0.04,88.49 ₹/L,+ 0.04
-Amethi Csm Nagar,95.50 ₹/L,- 0.23,88.57 ₹/L,+ 0.24
-Amroha,95.01 ₹/L,- 0.16,88.32 ₹/L,  0.00
-Auraiya,95.02 ₹/L,- 0.23,88.18 ₹/L,- 0.12
-Azamgarh,95.32 ₹/L,- 0.62,88.70 ₹/L,- 0.44
-Baghpat,94.78 ₹/L,- 0.04,87.71 ₹/L,- 0.21
-Bahraich,95.16 ₹/L,- 0.65,88.91 ₹/L,+ 0.54
-Ballia,96.18 ₹/L,+ 0.42,88.65 ₹/L,- 0.22
-Balrampur,94.89 ₹/L,- 0.18,88.21 ₹/L,- 0.11
-Banda,95.55 ₹/L,+ 0.14,88.69 ₹/L,- 0.35
-Barabanki,94.90 ₹/L,- 0.21,88.10 ₹/L,+ 0.09
-Bareilly,94.43 ₹/L,- 0.63,87.50 ₹/L,- 0.27
-Basti,95.05 ₹/L,- 0.31,88.44 ₹/L,- 0.17
-Bijnor,94.63 ₹/L,+ 0.10,87.99 ₹/L,+ 0.38
-Budaun,94.66 ₹/L,  0.00,87.84 ₹/L,+ 0.11
-Bulandshahr,95.29 ₹/L,  0.00,88.20 ₹/L,  0.00
-Chandauli,94.65 ₹/L,  0.00,87.77 ₹/L,  0.00
-Chitrakut,95.60 ₹/L,+ 0.05,88.77 ₹/L,- 0.02
-Deoria,94.74 ₹/L,+ 0.09,87.75 ₹/L,+ 0.12
-Etah,95.15 ₹/L,+ 0.40,87.43 ₹/L,- 0.29
-Etawah,94.97 ₹/L,  0.00,88.28 ₹/L,  0.00
-Faizabad,95.26 ₹/L,+ 0.12,88.24 ₹/L,- 0.08
-Farrukkhabad,95.23 ₹/L,  0.00,88.11 ₹/L,- 0.32
-Fatehpur,95.41 ₹/L,+ 0.27,88.77 ₹/L,+ 0.48
-Firozabad,94.66 ₹/L,+ 0.17,87.32 ₹/L,- 0.03
-Gautam Budh Nagar,95.05 ₹/L,+ 0.28,87.89 ₹/L,+ 0.08
-Ghaziabad,94.70 ₹/L,+ 0.26,87.81 ₹/L,- 0.05
-Ghazipur,96.17 ₹/L,+ 0.61,89.16 ₹/L,- 0.01
-Gonda,94.61 ₹/L,- 0.25,87.87 ₹/L,- 0.14
-Gorakhpur,94.98 ₹/L,- 0.18,88.09 ₹/L,  0.00
-Hamirpur,95.04 ₹/L,- 0.58,88.40 ₹/L,- 0.28
-Hapur,94.62 ₹/L,- 0.16,88.01 ₹/L,+ 0.40
-Hardoi,94.94 ₹/L,- 0.30,88.09 ₹/L,- 0.69
-Hathras,94.85 ₹/L,+ 0.27,87.96 ₹/L,+ 0.39
-Jalaun,95.32 ₹/L,- 0.25,88.80 ₹/L,+ 0.08
-Jaunpur,95.86 ₹/L,+ 0.10,88.83 ₹/L,+ 0.11
-Jhansi,94.88 ₹/L,+ 0.45,87.48 ₹/L,  0.00
-Kannuaj,95.34 ₹/L,+ 0.36,88.29 ₹/L,- 0.22
-Kanpur Rural,94.59 ₹/L,- 0.36,88.03 ₹/L,+ 0.04
-Kanpur Urban,94.72 ₹/L,+ 0.22,87.51 ₹/L,  0.00
-Kashi Ram Nagar,94.98 ₹/L,- 0.11,88.12 ₹/L,  0.00
-Kaushambi,94.97 ₹/L,+ 0.30,88.15 ₹/L,+ 0.08
-Kushinagar,94.77 ₹/L,- 0.22,88.13 ₹/L,+ 0.48
-Lakhimpur,95.02 ₹/L,- 0.72,88.94 ₹/L,+ 0.99
-Lalitpur,95.11 ₹/L,+ 0.10,88.70 ₹/L,+ 0.54
-Lucknow,94.69 ₹/L,  0.00,87.86 ₹/L,+ 0.05
-Maharajganj,95.34 ₹/L,+ 0.37,88.16 ₹/L,+ 0.03
-Mahoba,95.54 ₹/L,+ 0.22,88.68 ₹/L,- 0.23
-Mainpuri,94.82 ₹/L,- 0.45,88.12 ₹/L,- 0.11
-Mathura,94.45 ₹/L,+ 0.22,87.67 ₹/L,+ 0.32
-Maunathbhanjan,95.45 ₹/L,+ 0.29,88.37 ₹/L,- 0.49
-Meerut,94.60 ₹/L,+ 0.22,87.54 ₹/L,- 0.10
-Mirzapur,95.51 ₹/L,+ 0.17,88.15 ₹/L,+ 0.03
-Moradabad,95.20 ₹/L,- 0.06,88.18 ₹/L,+ 0.08
-Muzaffarnagar,94.75 ₹/L,+ 0.10,87.78 ₹/L,- 0.11
-Pilibhit,95.29 ₹/L,+ 0.03,88.69 ₹/L,+ 0.08
-Pratapgarh,95.53 ₹/L,- 0.12,88.97 ₹/L,+ 0.38
-Rae Bareli,94.88 ₹/L,- 0.65,88.31 ₹/L,+ 0.28
-Rampur,95.14 ₹/L,+ 0.48,87.77 ₹/L,- 0.46
-Saharanpur,95.13 ₹/L,- 0.30,88.86 ₹/L,+ 0.45
-Sambhal,94.89 ₹/L,- 0.34,88.18 ₹/L,+ 0.17
-Sant Kabir Nagar,95.13 ₹/L,+ 0.15,88.14 ₹/L,  0.00
-Sant Ravi Nagar,95.36 ₹/L,+ 0.29,88.45 ₹/L,+ 0.14
-Shahjahanpur,94.65 ₹/L,- 0.51,88.24 ₹/L,  0.00
-Shamli,94.91 ₹/L,- 0.07,88.02 ₹/L,- 0.03
-Shravasti,95.15 ₹/L,+ 0.10,88.84 ₹/L,+ 0.29
-Sidharthnagar,95.82 ₹/L,+ 0.05,88.68 ₹/L,- 0.28
-Sitapur,95.29 ₹/L,+ 0.28,88.57 ₹/L,- 0.17
-Sonbhadra,95.51 ₹/L,- 0.67,88.75 ₹/L,+ 0.18
-Sultanpur,96.01 ₹/L,- 0.17,89.17 ₹/L,  0.00
-Unnao,94.87 ₹/L,- 0.08,88.13 ₹/L,+ 0.37
-Varanasi,94.97 ₹/L,- 0.14,88.04 ₹/L,- 0.26
+Agra,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Aligarh,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Allahabad,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Ambedkarnagar,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Amethi Csm Nagar,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Amroha,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Auraiya,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Azamgarh,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Baghpat,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Bahraich,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Ballia,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Balrampur,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Banda,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Barabanki,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Bareilly,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Basti,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Bijnor,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Budaun,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Bulandshahr,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Chandauli,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Chitrakut,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Deoria,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Etah,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Etawah,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Faizabad,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Farrukkhabad,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Fatehpur,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Firozabad,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Gautam Budh Nagar,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Ghaziabad,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Ghazipur,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Gonda,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Gorakhpur,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Hamirpur,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Hapur,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Hardoi,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Hathras,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Jalaun,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Jaunpur,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Jhansi,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Kannuaj,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Kanpur Rural,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Kanpur Urban,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Kashi Ram Nagar,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Kaushambi,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Kushinagar,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Lakhimpur,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Lalitpur,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Lucknow,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Maharajganj,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Mahoba,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Mainpuri,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Mathura,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Maunathbhanjan,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Meerut,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Mirzapur,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Moradabad,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Muzaffarnagar,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Pilibhit,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Pratapgarh,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Rae Bareli,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Rampur,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Saharanpur,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Sambhal,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Sant Kabir Nagar,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Sant Ravi Nagar,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Shahjahanpur,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Shamli,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Shravasti,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Sidharthnagar,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Sitapur,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Sonbhadra,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Sultanpur,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Unnao,177.00 ₹/L,  NA,139.00 ₹/L,  NA
+Varanasi,177.00 ₹/L,  NA,139.00 ₹/L,  NA
