@@ -9,11 +9,14 @@
 import csv
 import os
 import re
-import time
-import requests
-from bs4 import BeautifulSoup
+import json
+from concurrent.futures import ThreadPoolExecutor
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from bs4 import BeautifulSoup
 
 ###################################
 # Utility Functions
@@ -26,7 +29,7 @@ def clean_state_name(name: str) -> str:
 def get_driver():
     """Initialize and return a headless Chrome driver."""
     chrome_options = Options()
-    # chrome_options.add_argument("--headless=new")
+    chrome_options.add_argument("--headless=new")
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--disable-blink-features=AutomationControlled")
@@ -40,83 +43,30 @@ def get_driver():
 # Scraping Functions
 ###################################
 
-def scrape_state_and_districts(driver, state_name, fuel_type="petrol"):
-    """Return dict: {city_value: city_name} for the given state."""
-    state_url = f"https://www.ndtv.com/fuel-prices/{fuel_type}-price-in-{state_name}-state"
-    driver.get(state_url)
-    time.sleep(2)
-    soup = BeautifulSoup(driver.page_source, "html.parser")
-    city_dropdown = soup.find("select", id="cdropdown")
-    if not city_dropdown:
-        print(f"❌ Could not find city dropdown for {state_name}")
-        return {}
-    
-    cities = {}
-    for option in city_dropdown.find_all("option"):
-        val = option.get("value")
-        name = option.text.strip()
-        if val and val != "select":
-            cities[val] = name
-    return cities
+def wait_for_table(driver, timeout=10):
+    """Wait for a table to appear on the page."""
+    WebDriverWait(driver, timeout).until(EC.presence_of_element_located((By.TAG_NAME, "table")))    
 
-def scrape_city_prices(driver, state, city_val, city_name, fuel_type="petrol"):
-    """Scrape petrol prices for a given city."""
-    url = f"https://www.ndtv.com/fuel-prices/{fuel_type}-price-in-{city_val}-city"
-    driver.get(url)
-    time.sleep(2)
-    soup = BeautifulSoup(driver.page_source, "html.parser")
-    table = soup.find("table")
-    if not table:
-        print(f"⚠️ No table found for {city_name} ({state})")
-        return []
-
-    data = []
-    for row in table.find_all("tr")[1:]:
-        tds = row.find_all("td")
-        if len(tds) < 3:
-            continue
-        city = tds[0].text.strip()
-        price = tds[1].text.strip()
-        ch = tds[2]
-        if ch.find(class_="chngBx up"):
-            change = "+ " + ch.text.strip()
-        elif ch.find(class_="chngBx down"):
-            change = "- " + ch.text.strip()
-        else:
-            change = "  " + ch.text.strip()
-        data.append([city, price, change])
-    return data
-
-###################################
-# Main Execution
-###################################
-
-def main():
-    driver = get_driver()
-
-    # URLs for state-level data
+def scrape_state_level(driver):
+    """Scrape state-level petrol and diesel prices."""
     URL_PETROL = "https://www.ndtv.com/fuel-prices/petrol-price-in-all-state"
-    URL_DIESEL = "https://www.ndtv.com/fuel-prices/diesel-price-in-all-state"
-
-    # Fetch both tables
+    URL_DIESEL = "https://www.ndtv.com/fuel-prices/diesel-price-in-all-state"  
     driver.get(URL_PETROL)
-    time.sleep(2)
+    wait_for_table(driver)
     soup1 = BeautifulSoup(driver.page_source, "html.parser")
     table_p = soup1.find("table")
 
     driver.get(URL_DIESEL)
-    time.sleep(2)
+    wait_for_table(driver)
     soup2 = BeautifulSoup(driver.page_source, "html.parser")
-    table_d = soup2.find("table")
+    table_d = soup2.find("table")  
 
     if not table_p or not table_d:
         print("❌ Could not find one of the state-level tables.")
-        driver.quit()
-        return
+        return []
 
     state, price_p, change_p, price_d, change_d = [], [], [], [], []
 
-    # Parse petrol table
     for row in table_p.find_all("tr")[1:]:
         tds = row.find_all("td")
         if len(tds) < 3:
@@ -131,7 +81,6 @@ def main():
         else:
             change_p.append("  " + ch.text.strip())
 
-    # Parse diesel table
     for row in table_d.find_all("tr")[1:]:
         tds = row.find_all("td")
         if len(tds) < 3:
@@ -145,7 +94,6 @@ def main():
         else:
             change_d.append("  " + ch.text.strip())
 
-    # Save state-level CSV
     out = [["State", "Price(P)", "Change(P)", "Price(D)", "Change(D)"]]
     for (i, j, k, l, m) in zip(state, price_p, change_p, price_d, change_d):
         out.append([i, j, k, l, m])
@@ -154,33 +102,110 @@ def main():
         csv.writer(f).writerows(out)
 
     print("✅ State-level data saved successfully as State.csv")
+    return state                                       
 
-    ######################################
-    # DISTRICT LEVEL DATA
-    ######################################
-    print("\n📍 Starting district-level data scraping...")
-    assets_path = os.path.join("root", "assets")
-    os.makedirs(assets_path, exist_ok=True)
+def scrape_all_districts(driver):
+    """Scrape all districts from the NDTV city-level page."""
+    URL_PETROL = "https://www.ndtv.com/fuel-prices/petrol-price-in-all-city"
+    URL_DIESEL = "https://www.ndtv.com/fuel-prices/diesel-price-in-all-city"
+    driver.get(URL_PETROL)
+    wait_for_table(driver)
+    soup1 = BeautifulSoup(driver.page_source, "html.parser")
+    table_p = soup1.find("table")
 
-    for st in state:
-        clean_name = clean_state_name(st)
-        print(f"\n🔍 Fetching districts for {st}...")
-        cities = scrape_state_and_districts(driver, clean_name)
-        if not cities:
-            print(f"⚠️ Skipped {st}: No city dropdown found.")
+    driver.get(URL_DIESEL)
+    wait_for_table(driver)
+    soup2 = BeautifulSoup(driver.page_source, "html.parser")
+    table_d = soup2.find("table")
+
+    if not table_p or not table_d:
+        print("❌ Could not find district table.")
+        return []
+    
+    data = []
+    district, price_p, change_p, price_d, change_d = [], [], [], [], []
+
+    for row in table_p.find_all("tr")[1:]:
+        tds = row.find_all("td")
+        if len(tds) < 3:
             continue
+        district.append(tds[0].text.strip())
+        price_p.append(tds[1].text.strip())
+        ch = tds[2]
+        if ch.find(class_="chngBx up"):
+            change_p.append("+ " + ch.text.strip())
+        elif ch.find(class_="chngBx down"):
+            change_p.append("- " + ch.text.strip())
+        else:
+            change_p.append("  " + ch.text.strip())
+    
+    for row in table_d.find_all("tr")[1:]:
+        tds = row.find_all("td")
+        if len(tds) < 3:
+            continue
+        price_d.append(tds[1].text.strip())
+        ch = tds[2]
+        if ch.find(class_="chngBx up"):
+            change_d.append("+ " + ch.text.strip())
+        elif ch.find(class_="chngBx down"):
+            change_d.append("- " + ch.text.strip())
+        else:
+            change_d.append("  " + ch.text.strip())
 
-        district_data = [["District", "Petrol Price", "Change"]]
-        for city_val, city_name in cities.items():
-            city_prices = scrape_city_prices(driver, st, city_val, city_name)
-            district_data.extend(city_prices)
+    # out = [["District", "Price(P)", "Change(P)", "Price(D)", "Change(D)"]]
+    out = []
+    for (i, j, k, l, m) in zip(district, price_p, change_p, price_d, change_d):
+        out.append([i, j, k, l, m])
+    return out
 
-        file_path = os.path.join(assets_path, f"{st.replace(' ', '_')}.csv")
-        with open(file_path, "w", encoding="utf-8", newline="") as f:
-            csv.writer(f).writerows(district_data)
-        print(f"✅ Saved district-level data for {st}")
+###################################
+# Main Execution
+###################################
 
+def save_state_districts(state_name, districts):
+    """Save districts belonging to a single state."""
+    assets_path = "assets"
+    os.makedirs(assets_path, exist_ok=True)
+    file_path = os.path.join(assets_path, f"{state_name}.csv")
+    print(file_path)
+    with open(file_path, "w", encoding="utf-8", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["District", "Price(P)", "Change(P)", "Price(D)", "Change(D)"])
+        writer.writerows(districts)
+    print(f"✅ Saved district-level data for {state_name} ({len(districts)} entries)")
+
+
+def main():
+
+    driver = get_driver()
+    states = scrape_state_level(driver)
+    print("\n📍 Starting district-level scraping...")
+    districts = scrape_all_districts(driver)
     driver.quit()
+
+    if not districts:
+        print("⚠️ No district data scraped.")
+        return
+
+    with open(file=os.path.join("src","district_state_map.json"), mode="r", encoding="utf-8") as f:
+        district_to_state = json.load(f)
+        print(f"Loaded map json")
+
+    # Group districts by state
+    state_groups = {}
+    for district, price_p, change_p, price_d, change_d in districts:
+        state_name = district_to_state.get(district)
+        if not state_name:
+            print(f"⚠️ State not found for district: {district}")
+            continue
+        state_groups.setdefault(state_name, []).append([district, price_p, change_p, price_d, change_d])
+        # print(f"{state_name} : {district}")
+
+    # Save state CSVs in parallel
+    with ThreadPoolExecutor(max_workers=8) as executor:
+        for state_name, data in state_groups.items():
+            executor.submit(save_state_districts, state_name, data)
+
     print("\n🎉 All district-level data saved successfully!")
 
 ###################################
