@@ -18,6 +18,7 @@ FOR UI RELATED CONTRIBUTIONS REFER TO: [LINK TO REPO](https://github.com/Doofens
 - Beautiful Soup
 - Requests
 - CSV
+- Selenium
 
 ## Installation
 

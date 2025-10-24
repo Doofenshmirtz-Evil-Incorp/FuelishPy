@@ -1,9 +1,10 @@
-City,Price(P),Change(P),Price(D),Change(D)
+District,Price(P),Change(P),Price(D),Change(D)
 Chandel,127.00 ₹/L,  NA,89.00 ₹/L,  NA
 East Imphal,127.00 ₹/L,  NA,89.00 ₹/L,  NA
 Jiribam,127.00 ₹/L,  NA,89.00 ₹/L,  NA
 Kakching,127.00 ₹/L,  NA,89.00 ₹/L,  NA
 Kangpokpi,127.00 ₹/L,  NA,89.00 ₹/L,  NA
+Kiphere,214.00 ₹/L,- 37.00,176.00 ₹/L,- 37.00
 Noney,127.00 ₹/L,  NA,89.00 ₹/L,  NA
 Pherzawl,127.00 ₹/L,  NA,89.00 ₹/L,  NA
 Senapati,127.00 ₹/L,  NA,89.00 ₹/L,  NA
