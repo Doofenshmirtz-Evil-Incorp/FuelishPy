@@ -1,16 +1,13 @@
-City,Price(P),Change(P),Price(D),Change(D)
-Bishnupur,99.44 ₹/L,+ 0.20,85.29 ₹/L,+ 0.09
-Chandel,99.66 ₹/L,  0.00,85.67 ₹/L,  0.00
-Churachandpur,99.61 ₹/L,  0.00,85.62 ₹/L,  0.00
-East Imphal,99.19 ₹/L,  0.00,85.25 ₹/L,- 0.12
-Jiribam,101.14 ₹/L,  0.00,87.08 ₹/L,  0.00
-Kakching,99.50 ₹/L,  0.00,85.52 ₹/L,  0.00
-Kangpokpi,99.56 ₹/L,  0.00,85.58 ₹/L,  0.00
-Noney,100.24 ₹/L,+ 0.58,86.20 ₹/L,  0.00
-Pherzawl,101.13 ₹/L,  0.00,87.20 ₹/L,  0.00
-Senapati,100.16 ₹/L,  0.00,86.12 ₹/L,  0.00
-Tamenglong,100.62 ₹/L,  0.00,86.54 ₹/L,  0.00
-Tengnoupal,99.77 ₹/L,- 0.35,86.09 ₹/L,+ 0.32
-Thoubal,99.37 ₹/L,  0.00,85.41 ₹/L,  0.00
-Ukhrul,99.94 ₹/L,  0.00,85.93 ₹/L,  0.00
-West Imphal,99.14 ₹/L,- 0.05,85.25 ₹/L,+ 0.05
+District,Price(P),Change(P),Price(D),Change(D)
+Chandel,127.00 ₹/L,  NA,89.00 ₹/L,  NA
+East Imphal,127.00 ₹/L,  NA,89.00 ₹/L,  NA
+Jiribam,127.00 ₹/L,  NA,89.00 ₹/L,  NA
+Kakching,127.00 ₹/L,  NA,89.00 ₹/L,  NA
+Kangpokpi,127.00 ₹/L,  NA,89.00 ₹/L,  NA
+Kiphere,214.00 ₹/L,- 37.00,176.00 ₹/L,- 37.00
+Noney,127.00 ₹/L,  NA,89.00 ₹/L,  NA
+Pherzawl,127.00 ₹/L,  NA,89.00 ₹/L,  NA
+Senapati,127.00 ₹/L,  NA,89.00 ₹/L,  NA
+Thoubal,127.00 ₹/L,  NA,89.00 ₹/L,  NA
+Ukhrul,127.00 ₹/L,  NA,89.00 ₹/L,  NA
+West Imphal,127.00 ₹/L,  NA,89.00 ₹/L,  NA

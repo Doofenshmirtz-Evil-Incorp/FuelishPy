@@ -1,5 +1,5 @@
-City,Price(P),Change(P),Price(D),Change(D)
-Karaikal,96.08 ₹/L,+ 0.05,86.35 ₹/L,+ 0.04
-Mahe,93.92 ₹/L,  0.00,83.90 ₹/L,  0.00
-Pondicherry,96.26 ₹/L,- 0.06,86.47 ₹/L,- 0.06
-Yanam,96.92 ₹/L,  0.00,86.75 ₹/L,  0.00
+District,Price(P),Change(P),Price(D),Change(D)
+Karaikal,214.00 ₹/L,- 37.00,176.00 ₹/L,- 37.00
+Mahe,214.00 ₹/L,- 37.00,176.00 ₹/L,- 37.00
+Pondicherry,214.00 ₹/L,- 37.00,176.00 ₹/L,- 37.00
+Yanam,214.00 ₹/L,- 37.00,176.00 ₹/L,- 37.00
