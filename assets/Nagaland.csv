@@ -1,12 +1,11 @@
 City,Price(P),Change(P),Price(D),Change(D)
-Dimapur,96.66 ₹/L,+ 0.06,88.00 ₹/L,+ 0.06
-Kiphere,98.57 ₹/L,  0.00,89.92 ₹/L,  0.00
-Kohima,97.74 ₹/L,- 0.14,88.85 ₹/L,- 0.14
-Longleng,98.58 ₹/L,  0.00,89.92 ₹/L,  0.00
-Mokokchung,98.58 ₹/L,  0.00,89.92 ₹/L,  0.00
-Mon,98.42 ₹/L,- 0.16,89.72 ₹/L,- 0.20
-Peren,96.99 ₹/L,- 0.54,88.33 ₹/L,- 0.54
-Phek,98.57 ₹/L,+ 0.90,89.92 ₹/L,+ 0.91
-Tuensang,98.57 ₹/L,  0.00,89.91 ₹/L,  0.00
-Wokha,98.36 ₹/L,+ 1.42,89.46 ₹/L,+ 1.18
-Zunheboto,98.57 ₹/L,+ 0.09,89.92 ₹/L,+ 0.13
+Dimapur,96.17 ₹/L,  NA,84.64 ₹/L,  NA
+Kohima,97.34 ₹/L,  NA,85.55 ₹/L,  NA
+Longleng,98.65 ₹/L,  NA,86.93 ₹/L,  NA
+Mokokchung,98.26 ₹/L,  NA,86.51 ₹/L,  NA
+Mon,98.52 ₹/L,  NA,86.74 ₹/L,  NA
+Peren,96.59 ₹/L,  NA,85.02 ₹/L,  NA
+Phek,97.31 ₹/L,  NA,85.69 ₹/L,  NA
+Tuensang,99.93 ₹/L,  NA,87.90 ₹/L,  NA
+Wokha,98.19 ₹/L,  NA,86.31 ₹/L,  NA
+Zunheboto,99.21 ₹/L,  NA,87.17 ₹/L,  NA

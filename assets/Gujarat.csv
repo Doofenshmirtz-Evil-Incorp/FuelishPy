@@ -1,34 +1,26 @@
 City,Price(P),Change(P),Price(D),Change(D)
-Ahmedabad,94.56 ₹/L,+ 0.07,90.23 ₹/L,+ 0.07
-Amreli,95.49 ₹/L,- 0.09,91.18 ₹/L,- 0.09
-Anand,94.28 ₹/L,  0.00,89.95 ₹/L,  0.00
-Aravalli,95.43 ₹/L,- 0.34,91.10 ₹/L,- 0.35
-Banas Kantha,95.23 ₹/L,+ 0.38,90.92 ₹/L,+ 0.38
-Bharuch,94.84 ₹/L,+ 0.03,90.51 ₹/L,+ 0.02
-Bhavnagar,95.91 ₹/L,- 0.20,91.58 ₹/L,- 0.20
-Botad,95.46 ₹/L,- 0.66,91.13 ₹/L,- 0.67
-Chhotaudepur,94.81 ₹/L,  0.00,90.48 ₹/L,  0.00
-Dahod,95.37 ₹/L,- 0.23,91.05 ₹/L,- 0.23
-Devbhumi Dwarka,95.00 ₹/L,- 0.21,90.68 ₹/L,- 0.20
-Gandhi Nagar,94.77 ₹/L,- 0.18,90.44 ₹/L,- 0.19
-Gir Somnath,96.10 ₹/L,  0.00,91.77 ₹/L,  0.00
-Jamnagar,94.44 ₹/L,- 0.07,90.11 ₹/L,- 0.08
-Junagadh,95.49 ₹/L,+ 0.01,91.17 ₹/L,  0.00
-Kheda,94.30 ₹/L,- 0.45,89.97 ₹/L,- 0.45
-Kutch,94.32 ₹/L,- 1.12,89.99 ₹/L,- 1.13
-Mahisagar,95.35 ₹/L,+ 0.12,91.02 ₹/L,+ 0.12
-Mehsana,94.60 ₹/L,+ 0.26,90.30 ₹/L,+ 0.27
-Morbi,94.85 ₹/L,  0.00,90.54 ₹/L,  0.00
-Narmada,94.78 ₹/L,- 0.08,90.46 ₹/L,- 0.07
-Navsari,94.64 ₹/L,- 0.09,90.33 ₹/L,- 0.09
-Panch Mahal,94.83 ₹/L,+ 0.18,90.51 ₹/L,+ 0.19
-Patan,94.89 ₹/L,+ 0.59,90.59 ₹/L,+ 0.60
-Porbander,94.56 ₹/L,- 0.61,90.23 ₹/L,- 0.62
-Rajkot,94.30 ₹/L,- 0.48,89.99 ₹/L,- 0.48
-Sabar Kantha,94.92 ₹/L,- 0.04,90.60 ₹/L,- 0.04
-Surat,94.37 ₹/L,- 0.38,90.06 ₹/L,- 0.38
-Surendranagar,94.74 ₹/L,- 0.14,90.43 ₹/L,- 0.14
-Tapi,94.99 ₹/L,  0.00,90.68 ₹/L,  0.00
-The Dangs,95.32 ₹/L,- 0.28,91.01 ₹/L,- 0.29
-Vadodara,94.15 ₹/L,+ 0.04,89.82 ₹/L,+ 0.04
-Valsad,95.07 ₹/L,- 0.46,90.77 ₹/L,- 0.45
+Ahmedabad,95.00 ₹/L,  NA,90.67 ₹/L,  NA
+Amreli,95.97 ₹/L,  NA,91.66 ₹/L,  NA
+Anand,94.61 ₹/L,  NA,90.28 ₹/L,  NA
+Bharuch,95.01 ₹/L,  NA,90.68 ₹/L,  NA
+Bhavnagar,95.78 ₹/L,  NA,91.46 ₹/L,  NA
+Botad,95.71 ₹/L,  NA,91.12 ₹/L,  NA
+Dahod,94.98 ₹/L,  NA,90.65 ₹/L,  NA
+Devbhumi Dwarka,94.79 ₹/L,  NA,90.46 ₹/L,  NA
+Gir Somnath,95.74 ₹/L,  NA,91.53 ₹/L,  NA
+Jamnagar,94.05 ₹/L,  NA,89.72 ₹/L,  NA
+Junagadh,95.74 ₹/L,  NA,91.44 ₹/L,  NA
+Kheda,94.45 ₹/L,  NA,90.28 ₹/L,  NA
+Kutch,94.83 ₹/L,  NA,90.50 ₹/L,  NA
+Mehsana,94.54 ₹/L,  NA,90.23 ₹/L,  NA
+Morbi,94.79 ₹/L,  NA,90.48 ₹/L,  NA
+Narmada,94.81 ₹/L,  NA,90.68 ₹/L,  NA
+Navsari,94.55 ₹/L,  NA,90.24 ₹/L,  NA
+Patan,95.21 ₹/L,  NA,90.90 ₹/L,  NA
+Rajkot,95.13 ₹/L,  NA,89.91 ₹/L,  NA
+Surat,94.27 ₹/L,  NA,89.95 ₹/L,  NA
+Surendranagar,95.22 ₹/L,  NA,90.89 ₹/L,  NA
+Tapi,95.00 ₹/L,  NA,90.44 ₹/L,  NA
+The Dangs,95.26 ₹/L,  NA,91.46 ₹/L,  NA
+Vadodara,94.23 ₹/L,  NA,89.91 ₹/L,  NA
+Valsad,95.01 ₹/L,  NA,91.10 ₹/L,  NA
