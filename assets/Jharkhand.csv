@@ -1,10 +1,22 @@
 City,Price(P),Change(P),Price(D),Change(D)
-Bokaro,98.32 ₹/L,  0.00,93.07 ₹/L,  0.00
-Dhanbad,97.87 ₹/L,  0.00,92.62 ₹/L,  0.00
+Bokaro,98.29 ₹/L,- 0.03,93.04 ₹/L,- 0.03
+Chatra,99.49 ₹/L,  NA,94.24 ₹/L,  NA
+Dhanbad,98.08 ₹/L,+ 0.21,92.83 ₹/L,+ 0.21
+Dumka,98.23 ₹/L,  NA,92.97 ₹/L,  NA
+East Singhbhum,97.80 ₹/L,  NA,92.55 ₹/L,  NA
 Garhwa,99.60 ₹/L,  0.00,94.29 ₹/L,  0.00
-Giridih,98.59 ₹/L,  0.00,93.32 ₹/L,  0.00
-Godda,98.87 ₹/L,  0.00,93.59 ₹/L,  0.00
-Gumla,98.51 ₹/L,  0.00,93.26 ₹/L,  0.00
-Hazaribagh,98.94 ₹/L,  0.00,93.66 ₹/L,  0.00
-Koderma,98.88 ₹/L,  0.00,93.60 ₹/L,  0.00
-Ranchi,97.86 ₹/L,  0.00,92.62 ₹/L,  0.00
+Giridih,98.64 ₹/L,+ 0.05,93.37 ₹/L,+ 0.05
+Godda,98.58 ₹/L,- 0.29,93.29 ₹/L,- 0.30
+Gumla,98.35 ₹/L,- 0.16,93.10 ₹/L,- 0.16
+Hazaribagh,98.52 ₹/L,- 0.42,93.27 ₹/L,- 0.39
+Jamtara,98.35 ₹/L,  NA,93.07 ₹/L,  NA
+Khunti,97.92 ₹/L,  NA,92.69 ₹/L,  NA
+Koderma,98.70 ₹/L,- 0.18,93.41 ₹/L,- 0.19
+Latehar,98.90 ₹/L,  NA,93.65 ₹/L,  NA
+Lohardaga,98.75 ₹/L,  NA,93.50 ₹/L,  NA
+Pakur,99.07 ₹/L,  NA,91.42 ₹/L,  NA
+Ramgarh,98.41 ₹/L,  NA,85.05 ₹/L,  NA
+Ranchi,97.86 ₹/L,  0.00,88.23 ₹/L,- 4.39
+Sahibganj,99.39 ₹/L,  NA,92.28 ₹/L,  NA
+Simdega,98.86 ₹/L,  NA,88.05 ₹/L,  NA
+West Singhbhum,99.16 ₹/L,  NA,82.01 ₹/L,  NA

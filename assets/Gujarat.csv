@@ -1,15 +1,27 @@
 City,Price(P),Change(P),Price(D),Change(D)
 Ahmedabad,94.68 ₹/L,  0.00,90.35 ₹/L,  0.00
-Amreli,95.69 ₹/L,  0.00,91.39 ₹/L,  0.00
-Anand,94.53 ₹/L,  0.00,90.20 ₹/L,  0.00
+Amreli,95.29 ₹/L,- 0.40,90.98 ₹/L,- 0.41
+Anand,94.62 ₹/L,+ 0.09,90.29 ₹/L,+ 0.09
 Bharuch,94.92 ₹/L,  0.00,90.59 ₹/L,  0.00
 Bhavnagar,96.10 ₹/L,  0.00,91.77 ₹/L,  0.00
-Botad,95.50 ₹/L,  0.00,91.18 ₹/L,  0.00
-Gandhi Nagar,94.70 ₹/L,- 0.15,90.38 ₹/L,- 0.14
-Jamnagar,94.50 ₹/L,  0.00,90.18 ₹/L,  0.00
-Junagadh,95.62 ₹/L,  0.00,91.29 ₹/L,  0.00
-Kutch,95.55 ₹/L,  0.00,91.23 ₹/L,  0.00
-Navsari,94.81 ₹/L,  0.00,90.51 ₹/L,  0.00
-Rajkot,95.18 ₹/L,  0.00,90.86 ₹/L,  0.00
-Surat,94.75 ₹/L,  0.00,90.44 ₹/L,  0.00
-Vadodara,94.28 ₹/L,  0.00,89.96 ₹/L,  0.00
+Botad,96.12 ₹/L,+ 0.62,91.80 ₹/L,+ 0.62
+Dahod,95.60 ₹/L,  NA,91.28 ₹/L,  NA
+Devbhumi Dwarka,94.29 ₹/L,  NA,89.96 ₹/L,  NA
+Gandhi Nagar,94.70 ₹/L,  0.00,87.87 ₹/L,- 2.51
+Gir Somnath,96.08 ₹/L,  NA,91.78 ₹/L,  NA
+Jamnagar,94.51 ₹/L,+ 0.01,90.18 ₹/L,  0.00
+Junagadh,95.48 ₹/L,- 0.14,91.17 ₹/L,- 0.12
+Kheda,94.30 ₹/L,  NA,89.97 ₹/L,  NA
+Kutch,94.33 ₹/L,- 1.22,90.00 ₹/L,- 1.23
+Mehsana,94.48 ₹/L,  NA,90.17 ₹/L,  NA
+Morbi,95.07 ₹/L,  NA,90.76 ₹/L,  NA
+Narmada,95.19 ₹/L,  NA,90.87 ₹/L,  NA
+Navsari,94.93 ₹/L,+ 0.12,90.62 ₹/L,+ 0.11
+Patan,94.69 ₹/L,  NA,92.19 ₹/L,  NA
+Rajkot,94.27 ₹/L,- 0.91,92.85 ₹/L,+ 1.99
+Surat,94.90 ₹/L,+ 0.15,94.50 ₹/L,+ 4.06
+Surendranagar,95.34 ₹/L,  NA,90.59 ₹/L,  NA
+Tapi,94.99 ₹/L,  NA,86.56 ₹/L,  NA
+The Dangs,95.32 ₹/L,  NA,93.05 ₹/L,  NA
+Vadodara,94.13 ₹/L,- 0.15,89.44 ₹/L,- 0.52
+Valsad,95.49 ₹/L,  NA,91.56 ₹/L,  NA
