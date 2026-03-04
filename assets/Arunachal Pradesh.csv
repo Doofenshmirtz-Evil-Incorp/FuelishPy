@@ -1,12 +1,12 @@
 City,Price(P),Change(P),Price(D),Change(D)
-Changlang,92.66 ₹/L,  NA,82.21 ₹/L,  NA
-Dibang Valley,92.66 ₹/L,  NA,82.21 ₹/L,  NA
-East Siang,92.66 ₹/L,  NA,82.17 ₹/L,  NA
-Lohit,92.66 ₹/L,  NA,82.21 ₹/L,  NA
-Lower Dibang Valley,92.57 ₹/L,  NA,82.16 ₹/L,  NA
-Lower Subansiri,91.93 ₹/L,  NA,81.21 ₹/L,  NA
-Tawang,92.53 ₹/L,  0.00,87.57 ₹/L,+ 5.44
-Tirap,92.49 ₹/L,  NA,89.38 ₹/L,  NA
-Upper Siang,92.38 ₹/L,  NA,87.71 ₹/L,  NA
-West Kameng,92.38 ₹/L,  NA,87.08 ₹/L,  NA
-West Siang,92.35 ₹/L,  NA,87.75 ₹/L,  NA
+Changlang,92.66 ₹/L,  0.00,82.21 ₹/L,  0.00
+Dibang Valley,92.66 ₹/L,  0.00,82.21 ₹/L,  0.00
+East Siang,92.66 ₹/L,  0.00,82.17 ₹/L,  0.00
+Lohit,92.62 ₹/L,- 0.04,82.18 ₹/L,- 0.03
+Lower Dibang Valley,92.66 ₹/L,+ 0.09,82.22 ₹/L,+ 0.06
+Lower Subansiri,91.93 ₹/L,  0.00,81.21 ₹/L,  0.00
+Tawang,92.53 ₹/L,  0.00,82.13 ₹/L,- 5.44
+Tirap,92.49 ₹/L,  0.00,82.10 ₹/L,- 7.28
+Upper Siang,92.38 ₹/L,  0.00,82.04 ₹/L,- 5.67
+West Kameng,92.38 ₹/L,  0.00,82.03 ₹/L,- 5.05
+West Siang,92.35 ₹/L,  0.00,82.01 ₹/L,- 5.74
