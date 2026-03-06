@@ -1,20 +1,20 @@
 City,Price(P),Change(P),Price(D),Change(D)
-Amritsar,98.31 ₹/L,+ 0.24,88.12 ₹/L,+ 0.24
-Barnala,97.78 ₹/L,+ 0.07,87.60 ₹/L,+ 0.07
-Bathinda,97.47 ₹/L,- 0.08,87.30 ₹/L,- 0.07
-Faridkot,98.07 ₹/L,+ 0.07,87.87 ₹/L,+ 0.06
-Fatehgarh Sahib,98.20 ₹/L,+ 0.20,88.01 ₹/L,+ 0.20
-Fazilka,98.39 ₹/L,+ 0.16,88.18 ₹/L,+ 0.16
-Firozpur,98.48 ₹/L,+ 0.39,88.27 ₹/L,+ 0.37
-Gurdaspur,98.11 ₹/L,- 0.12,87.93 ₹/L,- 0.11
-Hoshiarpur,98.03 ₹/L,+ 0.24,87.85 ₹/L,+ 0.23
-Jalandhar,97.55 ₹/L,  0.00,87.38 ₹/L,- 2.83
-Kapurthala,97.65 ₹/L,- 0.09,87.48 ₹/L,- 0.09
-Ludhiana,97.97 ₹/L,- 0.33,87.78 ₹/L,- 0.32
-Mansa,97.92 ₹/L,+ 0.12,87.74 ₹/L,+ 0.12
-Moga,98.04 ₹/L,- 0.24,87.85 ₹/L,- 0.23
-Muktsar,97.85 ₹/L,+ 0.15,87.67 ₹/L,+ 0.15
-Pathankot,98.40 ₹/L,- 0.05,88.20 ₹/L,- 7.17
-Patiala,97.68 ₹/L,- 0.48,87.49 ₹/L,- 0.76
-Sangrur,97.48 ₹/L,  0.00,87.31 ₹/L,- 4.04
-Tarn Taran,98.22 ₹/L,+ 0.48,88.03 ₹/L,- 2.65
+Amritsar,98.31 ₹/L,  NA,88.12 ₹/L,  NA
+Barnala,97.78 ₹/L,  NA,87.60 ₹/L,  NA
+Bathinda,97.47 ₹/L,  NA,87.30 ₹/L,  NA
+Faridkot,98.07 ₹/L,  NA,87.87 ₹/L,  NA
+Fatehgarh Sahib,98.20 ₹/L,  NA,88.01 ₹/L,  NA
+Fazilka,98.39 ₹/L,  NA,88.18 ₹/L,  NA
+Firozpur,98.48 ₹/L,  NA,88.27 ₹/L,  NA
+Gurdaspur,98.11 ₹/L,  NA,87.93 ₹/L,  NA
+Hoshiarpur,98.03 ₹/L,  NA,87.85 ₹/L,  NA
+Jalandhar,97.55 ₹/L,  NA,87.38 ₹/L,  NA
+Kapurthala,97.65 ₹/L,  NA,87.48 ₹/L,  NA
+Ludhiana,97.97 ₹/L,  NA,87.78 ₹/L,  NA
+Mansa,97.92 ₹/L,  NA,87.74 ₹/L,  NA
+Moga,98.04 ₹/L,  NA,87.85 ₹/L,  NA
+Muktsar,97.85 ₹/L,  NA,87.67 ₹/L,  NA
+Pathankot,98.40 ₹/L,  NA,88.20 ₹/L,  NA
+Patiala,97.68 ₹/L,  NA,87.49 ₹/L,  NA
+Sangrur,97.48 ₹/L,  NA,87.31 ₹/L,  NA
+Tarn Taran,98.22 ₹/L,  NA,88.03 ₹/L,  NA
