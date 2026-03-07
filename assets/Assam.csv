@@ -1,23 +1,23 @@
 City,Price(P),Change(P),Price(D),Change(D)
-Baksa,99.14 ₹/L,  NA,90.34 ₹/L,  NA
-Barpeta,98.92 ₹/L,  NA,90.12 ₹/L,  NA
-Bongaigaon,98.19 ₹/L,  NA,89.42 ₹/L,  NA
-Cachar,98.88 ₹/L,  NA,90.14 ₹/L,  NA
-Chirang,98.17 ₹/L,  NA,89.39 ₹/L,  NA
-Darrang,98.98 ₹/L,  NA,90.18 ₹/L,  NA
-Dhemaji,99.73 ₹/L,  NA,90.92 ₹/L,  NA
-Dibrugarh,98.97 ₹/L,  NA,90.17 ₹/L,  NA
-Goalpara,99.11 ₹/L,  NA,90.31 ₹/L,  NA
-Golaghat,98.38 ₹/L,  NA,89.60 ₹/L,  NA
-Hailakandi,98.92 ₹/L,  NA,90.17 ₹/L,  NA
-Jorhat,98.68 ₹/L,  NA,89.90 ₹/L,  NA
-Kamrup,98.24 ₹/L,  NA,89.46 ₹/L,  NA
-Karbi Anglong,99.00 ₹/L,  NA,90.23 ₹/L,  NA
-Karimganj,99.69 ₹/L,  NA,90.92 ₹/L,  NA
-Kokrajhar,98.77 ₹/L,  NA,89.98 ₹/L,  NA
-Morigaon,98.75 ₹/L,  NA,89.96 ₹/L,  NA
-Nagaon,98.89 ₹/L,  NA,90.12 ₹/L,  NA
-Nalbari,98.63 ₹/L,  NA,89.85 ₹/L,  NA
-Sonitpur,98.62 ₹/L,  NA,89.87 ₹/L,  NA
-Tinsukia,98.18 ₹/L,  NA,89.40 ₹/L,  NA
-Udalguri,98.88 ₹/L,  NA,90.08 ₹/L,  NA
+Baksa,98.81 ₹/L,- 0.33,90.01 ₹/L,- 0.33
+Barpeta,98.94 ₹/L,+ 0.02,90.14 ₹/L,+ 0.02
+Bongaigaon,98.34 ₹/L,+ 0.15,89.57 ₹/L,+ 0.15
+Cachar,98.85 ₹/L,- 0.03,90.10 ₹/L,- 0.04
+Chirang,98.17 ₹/L,  0.00,89.39 ₹/L,  0.00
+Darrang,98.98 ₹/L,  0.00,90.18 ₹/L,  0.00
+Dhemaji,99.43 ₹/L,- 0.30,90.62 ₹/L,- 0.30
+Dibrugarh,98.99 ₹/L,+ 0.02,90.19 ₹/L,+ 0.02
+Goalpara,99.11 ₹/L,  0.00,90.31 ₹/L,  0.00
+Golaghat,98.20 ₹/L,- 0.18,89.43 ₹/L,- 0.17
+Hailakandi,99.34 ₹/L,+ 0.42,90.58 ₹/L,+ 0.41
+Jorhat,98.63 ₹/L,- 0.05,89.85 ₹/L,- 0.05
+Kamrup,98.19 ₹/L,- 0.05,89.42 ₹/L,- 0.04
+Karbi Anglong,98.85 ₹/L,- 0.15,90.08 ₹/L,- 0.15
+Karimganj,99.15 ₹/L,- 0.54,90.40 ₹/L,- 0.52
+Kokrajhar,98.91 ₹/L,+ 0.14,90.11 ₹/L,+ 0.13
+Morigaon,98.75 ₹/L,  0.00,89.96 ₹/L,  0.00
+Nagaon,98.89 ₹/L,  0.00,90.12 ₹/L,  0.00
+Nalbari,98.86 ₹/L,+ 0.23,90.06 ₹/L,+ 0.21
+Sonitpur,98.38 ₹/L,- 0.24,89.61 ₹/L,- 0.26
+Tinsukia,98.18 ₹/L,  0.00,89.40 ₹/L,  0.00
+Udalguri,98.88 ₹/L,  0.00,90.08 ₹/L,  0.00

@@ -1,14 +1,14 @@
 City,Price(P),Change(P),Price(D),Change(D)
-Adilabad,108.83 ₹/L,  NA,97.10 ₹/L,  NA
-Bhadradri Kothagudem,108.31 ₹/L,  NA,96.47 ₹/L,  NA
-Hyderabad,107.46 ₹/L,  NA,95.70 ₹/L,  NA
-Khammam,107.67 ₹/L,  NA,95.88 ₹/L,  NA
-Mahabubabad,107.27 ₹/L,  NA,95.51 ₹/L,  NA
-Medak,107.91 ₹/L,  NA,96.12 ₹/L,  NA
-Nalgonda,107.92 ₹/L,  NA,96.11 ₹/L,  NA
-Nizamabad,108.83 ₹/L,  NA,97.10 ₹/L,  NA
-Peddapalli,108.10 ₹/L,  NA,96.28 ₹/L,  NA
-Rajanna Sircilla,107.98 ₹/L,  NA,96.18 ₹/L,  NA
-Siddipet,107.70 ₹/L,  NA,95.93 ₹/L,  NA
-Suryapet,107.39 ₹/L,  NA,95.61 ₹/L,  NA
-Warangal,107.08 ₹/L,  NA,95.34 ₹/L,  NA
+Adilabad,108.86 ₹/L,+ 0.03,97.13 ₹/L,+ 0.03
+Bhadradri Kothagudem,108.37 ₹/L,+ 0.06,96.55 ₹/L,+ 0.08
+Hyderabad,107.50 ₹/L,+ 0.04,95.70 ₹/L,  0.00
+Khammam,107.49 ₹/L,- 0.18,95.71 ₹/L,- 0.17
+Mahabubabad,107.29 ₹/L,+ 0.02,95.53 ₹/L,+ 0.02
+Medak,107.80 ₹/L,- 0.11,96.02 ₹/L,- 0.10
+Nalgonda,107.38 ₹/L,- 0.54,95.60 ₹/L,- 0.51
+Nizamabad,108.83 ₹/L,  0.00,97.10 ₹/L,  0.00
+Peddapalli,108.00 ₹/L,- 0.10,96.19 ₹/L,- 0.09
+Rajanna Sircilla,107.83 ₹/L,- 0.15,96.03 ₹/L,- 0.15
+Siddipet,107.29 ₹/L,- 0.41,95.53 ₹/L,- 0.40
+Suryapet,107.39 ₹/L,  0.00,95.61 ₹/L,  0.00
+Warangal,107.05 ₹/L,- 0.03,95.31 ₹/L,- 0.03
