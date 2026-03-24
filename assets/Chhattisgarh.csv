@@ -1,9 +1,9 @@
 City,Price(P),Change(P),Price(D),Change(D)
-Bastar,101.11 ₹/L,  0.00,95.07 ₹/L,  0.00
-Dhamtari,99.66 ₹/L,- 0.38,93.61 ₹/L,- 0.37
-Durg,99.65 ₹/L,- 0.08,93.60 ₹/L,- 0.08
-Jashpur,101.01 ₹/L,+ 0.05,94.95 ₹/L,+ 0.05
-Korba,99.13 ₹/L,- 0.25,93.09 ₹/L,- 0.24
-Mahasamund,100.12 ₹/L,- 0.36,94.06 ₹/L,- 0.36
-Raipur,99.44 ₹/L,  0.00,93.39 ₹/L,  0.00
-Rajnandgaon,100.12 ₹/L,- 0.11,94.06 ₹/L,- 0.11
+Bastar,101.11 ₹/L,  NA,95.07 ₹/L,  NA
+Dhamtari,100.04 ₹/L,  NA,93.98 ₹/L,  NA
+Durg,99.78 ₹/L,  NA,93.72 ₹/L,  NA
+Jashpur,101.14 ₹/L,  NA,95.09 ₹/L,  NA
+Korba,99.42 ₹/L,  NA,93.37 ₹/L,  NA
+Mahasamund,99.57 ₹/L,  NA,93.52 ₹/L,  NA
+Raipur,99.44 ₹/L,  NA,93.39 ₹/L,  NA
+Rajnandgaon,100.35 ₹/L,  NA,94.29 ₹/L,  NA

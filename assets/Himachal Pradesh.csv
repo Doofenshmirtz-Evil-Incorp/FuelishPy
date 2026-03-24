@@ -1,11 +1,11 @@
 City,Price(P),Change(P),Price(D),Change(D)
-Bilaspur,100.14 ₹/L,  0.00,94.09 ₹/L,  0.00
-Chamba,95.18 ₹/L,- 0.06,87.09 ₹/L,- 0.26
-Kangra,94.37 ₹/L,+ 0.11,86.41 ₹/L,- 0.13
-Kinnaur,95.04 ₹/L,- 0.16,87.25 ₹/L,- 0.09
-Kullu,95.21 ₹/L,+ 0.07,87.26 ₹/L,- 0.06
-Mandi,94.51 ₹/L,+ 0.04,86.58 ₹/L,+ 0.04
-Shimla,95.06 ₹/L,- 0.13,87.26 ₹/L,- 0.02
-Sirmaur,95.17 ₹/L,+ 0.61,87.11 ₹/L,- 0.17
-Solan,94.53 ₹/L,- 0.22,86.55 ₹/L,- 0.15
-Una,93.55 ₹/L,+ 0.18,85.65 ₹/L,+ 0.02
+Bilaspur,99.68 ₹/L,  NA,93.64 ₹/L,  NA
+Chamba,95.33 ₹/L,  NA,87.33 ₹/L,  NA
+Kangra,94.42 ₹/L,  NA,86.50 ₹/L,  NA
+Kinnaur,95.20 ₹/L,  NA,87.34 ₹/L,  NA
+Kullu,95.25 ₹/L,  NA,87.17 ₹/L,  NA
+Mandi,94.47 ₹/L,  NA,86.54 ₹/L,  NA
+Shimla,95.19 ₹/L,  NA,87.28 ₹/L,  NA
+Sirmaur,95.17 ₹/L,  NA,87.06 ₹/L,  NA
+Solan,93.95 ₹/L,  NA,86.70 ₹/L,  NA
+Una,93.37 ₹/L,  NA,85.48 ₹/L,  NA
