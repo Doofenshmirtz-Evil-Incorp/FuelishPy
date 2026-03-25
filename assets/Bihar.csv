@@ -1,34 +1,34 @@
 City,Price(P),Change(P),Price(D),Change(D)
-Araria,106.86 ₹/L,  NA,92.99 ₹/L,  NA
-Arwal,105.81 ₹/L,  NA,92.03 ₹/L,  NA
-Banka,106.63 ₹/L,  NA,92.78 ₹/L,  NA
-Begusarai,105.06 ₹/L,  NA,91.30 ₹/L,  NA
-Bhagalpur,106.21 ₹/L,  NA,92.39 ₹/L,  NA
-Bhojpur,106.06 ₹/L,  NA,92.27 ₹/L,  NA
-Buxar,106.58 ₹/L,  NA,92.76 ₹/L,  NA
-Darbhanga,106.05 ₹/L,  NA,92.24 ₹/L,  NA
-East Champaran,106.94 ₹/L,  NA,93.20 ₹/L,  NA
-Gaya,106.11 ₹/L,  NA,92.31 ₹/L,  NA
-Gopalganj,106.70 ₹/L,  NA,92.86 ₹/L,  NA
-Jamui,106.71 ₹/L,  NA,92.86 ₹/L,  NA
-Katihar,106.94 ₹/L,  NA,93.16 ₹/L,  NA
-Khagaria,105.41 ₹/L,  NA,91.64 ₹/L,  NA
-Kishanganj,106.94 ₹/L,  NA,93.20 ₹/L,  NA
-Madhepura,106.61 ₹/L,  NA,92.76 ₹/L,  NA
-Madhubani,106.26 ₹/L,  NA,92.44 ₹/L,  NA
-Munger,105.65 ₹/L,  NA,91.87 ₹/L,  NA
-Muzaffarpur,105.98 ₹/L,  NA,92.17 ₹/L,  NA
-Nalanda,105.86 ₹/L,  NA,92.08 ₹/L,  NA
-Nawada,106.32 ₹/L,  NA,92.51 ₹/L,  NA
-Patna,105.23 ₹/L,  NA,91.49 ₹/L,  NA
-Purnia,106.57 ₹/L,  NA,92.72 ₹/L,  NA
-Rohtas,106.35 ₹/L,  NA,92.54 ₹/L,  NA
-Saharsa,106.10 ₹/L,  NA,92.28 ₹/L,  NA
-Samastipur,105.36 ₹/L,  NA,91.59 ₹/L,  NA
-Saran,105.90 ₹/L,  NA,92.11 ₹/L,  NA
-Sheikhpura,106.56 ₹/L,  NA,92.74 ₹/L,  NA
-Sheohar,106.56 ₹/L,  NA,92.71 ₹/L,  NA
-Sitamarhi,106.46 ₹/L,  NA,92.62 ₹/L,  NA
-Supaul,106.77 ₹/L,  NA,92.91 ₹/L,  NA
-Vaishali,105.30 ₹/L,  NA,91.56 ₹/L,  NA
-West Champaran,106.95 ₹/L,  NA,93.20 ₹/L,  NA
+Araria,106.94 ₹/L,+ 0.08,92.99 ₹/L,  NA
+Arwal,105.81 ₹/L,  0.00,92.03 ₹/L,  NA
+Banka,106.32 ₹/L,- 0.31,92.78 ₹/L,  NA
+Begusarai,105.06 ₹/L,  0.00,91.30 ₹/L,  NA
+Bhagalpur,106.02 ₹/L,- 0.19,92.39 ₹/L,  NA
+Bhojpur,106.00 ₹/L,- 0.06,92.27 ₹/L,  NA
+Buxar,106.55 ₹/L,- 0.03,92.76 ₹/L,  NA
+Darbhanga,105.44 ₹/L,- 0.61,92.24 ₹/L,  NA
+East Champaran,106.94 ₹/L,  0.00,93.20 ₹/L,  NA
+Gaya,106.28 ₹/L,+ 0.17,92.31 ₹/L,  NA
+Gopalganj,106.91 ₹/L,+ 0.21,92.86 ₹/L,  NA
+Jamui,106.71 ₹/L,  0.00,92.86 ₹/L,  NA
+Katihar,106.33 ₹/L,- 0.61,93.16 ₹/L,  NA
+Khagaria,105.46 ₹/L,+ 0.05,91.64 ₹/L,  NA
+Kishanganj,106.95 ₹/L,+ 0.01,93.20 ₹/L,  NA
+Madhepura,106.61 ₹/L,  0.00,92.76 ₹/L,  NA
+Madhubani,106.32 ₹/L,+ 0.06,92.44 ₹/L,  NA
+Munger,105.47 ₹/L,- 0.18,91.87 ₹/L,  NA
+Muzaffarpur,106.12 ₹/L,+ 0.14,92.17 ₹/L,  NA
+Nalanda,106.08 ₹/L,+ 0.22,92.08 ₹/L,  NA
+Nawada,106.08 ₹/L,- 0.24,92.51 ₹/L,  NA
+Patna,105.59 ₹/L,+ 0.36,91.49 ₹/L,  NA
+Purnia,106.94 ₹/L,+ 0.37,92.72 ₹/L,  NA
+Rohtas,106.77 ₹/L,+ 0.42,92.54 ₹/L,  NA
+Saharsa,106.10 ₹/L,  0.00,92.28 ₹/L,  NA
+Samastipur,105.57 ₹/L,+ 0.21,91.59 ₹/L,  NA
+Saran,106.04 ₹/L,+ 0.14,92.11 ₹/L,  NA
+Sheikhpura,106.56 ₹/L,  0.00,92.74 ₹/L,  NA
+Sheohar,106.56 ₹/L,  0.00,92.71 ₹/L,  NA
+Sitamarhi,106.84 ₹/L,+ 0.38,92.62 ₹/L,  NA
+Supaul,106.83 ₹/L,+ 0.06,92.91 ₹/L,  NA
+Vaishali,105.95 ₹/L,+ 0.65,91.56 ₹/L,  NA
+West Champaran,106.94 ₹/L,- 0.01,93.20 ₹/L,  NA
