@@ -1,11 +1,11 @@
 City,Price(P),Change(P),Price(D),Change(D)
-Bishnupur,99.46 ₹/L,+ 0.30,85.49 ₹/L,  NA
-Chandel,99.67 ₹/L,  0.00,85.69 ₹/L,  NA
-Churachandpur,99.62 ₹/L,  0.00,85.86 ₹/L,  NA
-East Imphal,99.21 ₹/L,  0.00,85.39 ₹/L,  NA
-Kakching,99.52 ₹/L,  0.00,85.54 ₹/L,  NA
-Senapati,100.18 ₹/L,  0.00,86.14 ₹/L,  NA
-Tamenglong,100.64 ₹/L,  0.00,86.56 ₹/L,  NA
-Thoubal,99.39 ₹/L,  0.00,85.43 ₹/L,  NA
-Ukhrul,99.96 ₹/L,  0.00,85.95 ₹/L,  NA
-West Imphal,99.33 ₹/L,+ 0.12,85.38 ₹/L,  NA
+Bishnupur,99.25 ₹/L,- 0.21,85.49 ₹/L,+ 0.27
+Chandel,99.67 ₹/L,  0.00,85.69 ₹/L,  0.00
+Churachandpur,99.62 ₹/L,  0.00,85.86 ₹/L,+ 0.22
+East Imphal,99.21 ₹/L,  0.00,85.26 ₹/L,- 0.13
+Kakching,99.52 ₹/L,  0.00,85.54 ₹/L,  0.00
+Senapati,100.18 ₹/L,  0.00,86.14 ₹/L,  0.00
+Tamenglong,100.64 ₹/L,  0.00,86.56 ₹/L,  0.00
+Thoubal,99.39 ₹/L,  0.00,85.43 ₹/L,  0.00
+Ukhrul,99.96 ₹/L,  0.00,85.95 ₹/L,  0.00
+West Imphal,99.21 ₹/L,+ 0.05,85.38 ₹/L,+ 0.12
