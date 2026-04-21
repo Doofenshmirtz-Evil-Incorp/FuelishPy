@@ -1,8 +1,8 @@
 City,Price(P),Change(P),Price(D),Change(D)
-Champhai,99.57 ₹/L,  NA,88.59 ₹/L,  NA
-Kolasib,98.14 ₹/L,  NA,87.09 ₹/L,  NA
-Lawngtlai,99.52 ₹/L,  NA,88.56 ₹/L,  NA
-Lunglei,99.56 ₹/L,  NA,88.58 ₹/L,  NA
-Mamit,99.41 ₹/L,  NA,88.50 ₹/L,  NA
-Saiha,99.53 ₹/L,  NA,88.56 ₹/L,  NA
-Serchhip,99.55 ₹/L,  NA,88.58 ₹/L,  NA
+Champhai,99.57 ₹/L,  0.00,88.59 ₹/L,  0.00
+Kolasib,98.03 ₹/L,- 0.11,87.00 ₹/L,- 0.09
+Lawngtlai,99.55 ₹/L,+ 0.03,88.57 ₹/L,+ 0.01
+Lunglei,99.56 ₹/L,  0.00,88.58 ₹/L,  0.00
+Mamit,99.41 ₹/L,  0.00,88.50 ₹/L,  0.00
+Saiha,99.53 ₹/L,  0.00,88.56 ₹/L,  0.00
+Serchhip,99.56 ₹/L,+ 0.01,88.58 ₹/L,  0.00

@@ -1,34 +1,34 @@
 State,Price(P),Change(P),Price(D),Change(D)
-Andaman And Nicobar,82.46 ₹/L,  NA,78.05 ₹/L,  NA
-Andhra Pradesh,109.83 ₹/L,  NA,97.66 ₹/L,  NA
-Arunachal Pradesh,92.53 ₹/L,  NA,82.13 ₹/L,  NA
-Assam,98.88 ₹/L,  NA,90.08 ₹/L,  NA
-Bihar,106.94 ₹/L,  NA,93.20 ₹/L,  NA
-Chandigarh,94.30 ₹/L,  NA,82.45 ₹/L,  NA
-Chhattisgarh,101.24 ₹/L,  NA,94.17 ₹/L,  NA
-Dadra And Nagar Haveli,92.56 ₹/L,  NA,88.05 ₹/L,  NA
-Daman And Diu,93.40 ₹/L,  NA,88.88 ₹/L,  NA
-Delhi,94.77 ₹/L,  NA,87.67 ₹/L,  NA
-Goa,96.52 ₹/L,  NA,88.28 ₹/L,  NA
-Gujarat,95.59 ₹/L,  NA,91.29 ₹/L,  NA
-Haryana,95.32 ₹/L,  NA,87.77 ₹/L,  NA
-Himachal Pradesh,93.61 ₹/L,  NA,85.70 ₹/L,  NA
-Jammu And Kashmir,97.38 ₹/L,  NA,86.16 ₹/L,  NA
-Jharkhand,99.16 ₹/L,  NA,93.89 ₹/L,  NA
-Karnataka,102.90 ₹/L,  NA,90.93 ₹/L,  NA
-Kerala,107.24 ₹/L,  NA,96.09 ₹/L,  NA
-Madhya Pradesh,106.76 ₹/L,  NA,92.09 ₹/L,  NA
-Maharashtra,105.50 ₹/L,  NA,92.03 ₹/L,  NA
-Manipur,99.27 ₹/L,  NA,85.34 ₹/L,  NA
-Meghalaya,96.34 ₹/L,  NA,87.81 ₹/L,  NA
-Mizoram,99.55 ₹/L,  NA,88.58 ₹/L,  NA
-Nagaland,98.48 ₹/L,  NA,89.79 ₹/L,  NA
-Odisha,102.41 ₹/L,  NA,93.96 ₹/L,  NA
-Puducherry,96.92 ₹/L,  NA,86.75 ₹/L,  NA
-Punjab,98.10 ₹/L,  NA,87.92 ₹/L,  NA
-Rajasthan,105.51 ₹/L,  NA,90.93 ₹/L,  NA
-Tamil Nadu,102.34 ₹/L,  NA,93.90 ₹/L,  NA
-Telangana,106.94 ₹/L,  NA,95.20 ₹/L,  NA
-Uttar Pradesh,95.21 ₹/L,  NA,88.40 ₹/L,  NA
-Uttarakhand,94.77 ₹/L,  NA,89.61 ₹/L,  NA
-West Bengal,106.32 ₹/L,  NA,92.86 ₹/L,  NA
+Andaman And Nicobar,82.46 ₹/L,  0.00,78.05 ₹/L,  0.00
+Andhra Pradesh,109.63 ₹/L,- 0.20,97.47 ₹/L,- 0.19
+Arunachal Pradesh,92.57 ₹/L,+ 0.04,82.15 ₹/L,+ 0.02
+Assam,98.88 ₹/L,  0.00,90.08 ₹/L,  0.00
+Bihar,106.95 ₹/L,+ 0.01,93.21 ₹/L,+ 0.01
+Chandigarh,94.30 ₹/L,  0.00,82.45 ₹/L,  0.00
+Chhattisgarh,100.95 ₹/L,- 0.29,93.88 ₹/L,- 0.29
+Dadra And Nagar Haveli,92.56 ₹/L,  0.00,88.05 ₹/L,  0.00
+Daman And Diu,93.40 ₹/L,  0.00,88.88 ₹/L,  0.00
+Delhi,94.77 ₹/L,  0.00,87.67 ₹/L,  0.00
+Goa,96.32 ₹/L,- 0.20,88.09 ₹/L,- 0.19
+Gujarat,95.49 ₹/L,- 0.10,91.18 ₹/L,- 0.11
+Haryana,95.34 ₹/L,+ 0.02,87.79 ₹/L,+ 0.02
+Himachal Pradesh,93.70 ₹/L,+ 0.09,85.81 ₹/L,+ 0.11
+Jammu And Kashmir,98.06 ₹/L,+ 0.68,86.51 ₹/L,+ 0.35
+Jharkhand,98.32 ₹/L,- 0.84,93.06 ₹/L,- 0.83
+Karnataka,102.82 ₹/L,- 0.08,90.86 ₹/L,- 0.07
+Kerala,107.10 ₹/L,- 0.14,95.96 ₹/L,- 0.13
+Madhya Pradesh,106.61 ₹/L,- 0.15,91.96 ₹/L,- 0.13
+Maharashtra,104.14 ₹/L,- 1.36,90.72 ₹/L,- 1.31
+Manipur,99.27 ₹/L,  0.00,85.34 ₹/L,  0.00
+Meghalaya,96.34 ₹/L,  0.00,87.81 ₹/L,  0.00
+Mizoram,99.56 ₹/L,+ 0.01,88.58 ₹/L,  0.00
+Nagaland,98.61 ₹/L,+ 0.13,89.94 ₹/L,+ 0.15
+Odisha,101.98 ₹/L,- 0.43,93.55 ₹/L,- 0.41
+Puducherry,96.92 ₹/L,  0.00,86.75 ₹/L,  0.00
+Punjab,98.10 ₹/L,  0.00,87.92 ₹/L,  0.00
+Rajasthan,105.56 ₹/L,+ 0.05,90.97 ₹/L,+ 0.04
+Tamil Nadu,102.02 ₹/L,- 0.32,93.57 ₹/L,- 0.33
+Telangana,107.13 ₹/L,+ 0.19,95.38 ₹/L,+ 0.18
+Uttar Pradesh,95.56 ₹/L,+ 0.35,88.72 ₹/L,+ 0.32
+Uttarakhand,94.59 ₹/L,- 0.18,89.47 ₹/L,- 0.14
+West Bengal,106.14 ₹/L,- 0.18,92.69 ₹/L,- 0.17
