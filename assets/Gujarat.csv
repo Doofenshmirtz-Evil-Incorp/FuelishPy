@@ -1,27 +1,27 @@
 City,Price(P),Change(P),Price(D),Change(D)
-Ahmedabad,94.29 ₹/L,  NA,89.95 ₹/L,  NA
-Amreli,95.29 ₹/L,  NA,90.98 ₹/L,  NA
-Anand,94.42 ₹/L,  NA,90.09 ₹/L,  NA
-Bharuch,94.81 ₹/L,  NA,90.49 ₹/L,  NA
-Bhavnagar,96.10 ₹/L,  NA,91.77 ₹/L,  NA
-Botad,95.76 ₹/L,  NA,91.44 ₹/L,  NA
-Dahod,95.43 ₹/L,  NA,91.11 ₹/L,  NA
-Devbhumi Dwarka,94.41 ₹/L,  NA,90.08 ₹/L,  NA
-Gandhi Nagar,94.95 ₹/L,  NA,90.63 ₹/L,  NA
-Gir Somnath,96.03 ₹/L,  NA,91.73 ₹/L,  NA
-Jamnagar,94.52 ₹/L,  NA,90.19 ₹/L,  NA
-Junagadh,95.57 ₹/L,  NA,91.26 ₹/L,  NA
-Kheda,94.78 ₹/L,  NA,90.45 ₹/L,  NA
-Kutch,95.44 ₹/L,  NA,91.12 ₹/L,  NA
-Mehsana,94.89 ₹/L,  NA,90.58 ₹/L,  NA
-Morbi,94.39 ₹/L,  NA,90.08 ₹/L,  NA
-Narmada,94.79 ₹/L,  NA,90.46 ₹/L,  NA
-Navsari,94.82 ₹/L,  NA,90.51 ₹/L,  NA
-Patan,94.31 ₹/L,  NA,90.00 ₹/L,  NA
-Rajkot,95.19 ₹/L,  NA,90.86 ₹/L,  NA
-Surat,94.57 ₹/L,  NA,90.26 ₹/L,  NA
-Surendranagar,94.93 ₹/L,  NA,90.62 ₹/L,  NA
-Tapi,96.06 ₹/L,  NA,91.76 ₹/L,  NA
-The Dangs,95.32 ₹/L,  NA,91.01 ₹/L,  NA
-Vadodara,94.61 ₹/L,  NA,90.28 ₹/L,  NA
-Valsad,95.07 ₹/L,  NA,90.77 ₹/L,  NA
+Ahmedabad,94.84 ₹/L,+ 0.55,90.51 ₹/L,+ 0.56
+Amreli,96.11 ₹/L,+ 0.82,91.78 ₹/L,+ 0.80
+Anand,94.62 ₹/L,+ 0.20,90.29 ₹/L,+ 0.20
+Bharuch,94.92 ₹/L,+ 0.11,90.59 ₹/L,+ 0.10
+Bhavnagar,96.10 ₹/L,  0.00,91.77 ₹/L,  0.00
+Botad,95.96 ₹/L,+ 0.20,91.64 ₹/L,+ 0.20
+Dahod,95.60 ₹/L,+ 0.17,91.28 ₹/L,+ 0.17
+Devbhumi Dwarka,95.01 ₹/L,+ 0.60,90.68 ₹/L,+ 0.60
+Gandhi Nagar,94.62 ₹/L,- 0.33,90.29 ₹/L,- 0.34
+Gir Somnath,96.03 ₹/L,  0.00,91.73 ₹/L,  0.00
+Jamnagar,94.51 ₹/L,- 0.01,90.18 ₹/L,- 0.01
+Junagadh,95.63 ₹/L,+ 0.06,91.30 ₹/L,+ 0.04
+Kheda,94.48 ₹/L,- 0.30,90.15 ₹/L,- 0.30
+Kutch,94.70 ₹/L,- 0.74,90.38 ₹/L,- 0.74
+Mehsana,94.48 ₹/L,- 0.41,90.17 ₹/L,- 0.41
+Morbi,94.77 ₹/L,+ 0.38,90.46 ₹/L,+ 0.38
+Narmada,94.86 ₹/L,+ 0.07,90.53 ₹/L,+ 0.07
+Navsari,94.93 ₹/L,+ 0.11,90.62 ₹/L,+ 0.11
+Patan,94.54 ₹/L,+ 0.23,90.23 ₹/L,+ 0.23
+Rajkot,94.71 ₹/L,- 0.48,90.40 ₹/L,- 0.46
+Surat,95.53 ₹/L,+ 0.96,91.20 ₹/L,+ 0.94
+Surendranagar,94.93 ₹/L,  0.00,90.62 ₹/L,  0.00
+Tapi,96.06 ₹/L,  0.00,91.76 ₹/L,  0.00
+The Dangs,95.60 ₹/L,+ 0.28,91.30 ₹/L,+ 0.29
+Vadodara,94.15 ₹/L,- 0.46,89.82 ₹/L,- 0.46
+Valsad,95.27 ₹/L,+ 0.20,90.96 ₹/L,+ 0.19
